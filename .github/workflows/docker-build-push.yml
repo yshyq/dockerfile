@@ -32,7 +32,8 @@ jobs:
           file: Dockerfile.mineru
           push: true
           tags: |
-            registry.cn-hangzhou.aliyuncs.com/mytest_docker123/mineru:latest
-            registry.cn-hangzhou.aliyuncs.com/mytest_docker123/mineru:v0.21.0
+            registry.cn-hangzhou.aliyuncs.com/mytest_docker123/vllm-openai:v0.21.0-cu129-new
           cache-from: type=gha
           cache-to: type=gha,mode=max
+
+

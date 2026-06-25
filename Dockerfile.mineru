@@ -1,4 +1,4 @@
-FROM vllm/vllm-openai:v0.21.0-cu129
+FROM vllm/vllm-openai:v0.20.0-x86_64-cu130
 WORKDIR /app
 
 # 1. 安装中文字体、curl 等工具
